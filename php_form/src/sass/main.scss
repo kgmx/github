@@ -1,0 +1,127 @@
+@import "compass/reset";
+
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.photo-wrapper {
+  height: 100px;
+  width: 600px;
+  margin: 100px auto 40px;
+  display: none;
+  &.show {
+    display: block;
+  }
+  &.s1 .photo {
+    background: #2C3E50;
+  }
+  &.s2 .photo {
+    background: #8E44AD;
+  }
+  &.s3 .photo {
+    background: #2980B9;
+  }
+  &.s4 .photo {
+    background: #27AE60;
+  }
+  &.s5 .photo {
+    background: #16A085;
+  }
+  &.s6 .photo {
+    background: #2C3E50;
+  }
+  &.s7 .photo {
+    background: #8E44AD;
+  }
+  &.s8 .photo {
+    background: #2980B9;
+  }
+  &.s9 .photo {
+    background: #27AE60;
+  }
+  &.s10 .photo {
+    background: #16A085;
+  }
+  .photo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    background: #F1233B;
+    margin-right: 20px;
+    color: #fff;
+  }
+}
+
+.pagination-wrapper {
+  clear: both;
+  max-width: 330px;
+  width: 100%;
+  margin: 0 auto 30px;
+  nav.pagination span {
+    height: 29px;
+    line-height: 29px;
+    display: block;
+    float: left;
+    a {
+      border-left: 0;
+      display: block;
+      font-size: 13px;
+      height: 30px;
+      text-align: center;
+      text-decoration: none;
+      padding: 0;
+      display: block;
+      color: #6a6e71;
+      font-weight: bold;
+    }
+    &.pagination-block {
+      margin-right: 5px;
+    }
+    a:hover {
+      color: #3498DB;
+    }
+    &.page {
+      display: none;
+      a {
+      width: 30px;
+      }
+      &.on {
+        display: block;
+      }
+    }
+    &.show {
+      display: block;
+    }
+    &.current a {
+      color: #3498DB;
+    }
+    &.first, &.prev, &.next, &.last {
+      margin-right: 5px;
+      a {
+        padding: 0 10px;
+      }
+    }
+    &.first {
+      display: none;
+      &.on {
+        display: block;
+      }
+    }
+    &.last {
+      display: none;
+      &.on {
+        display: block;
+      }
+    }
+    &.continue {
+      display: none;
+      &.on {
+        display: block;
+      }
+    }
+  }
+}

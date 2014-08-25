@@ -1,0 +1,4 @@
+node_modules/*
+assets/uploads/*
+package.json
+.DS_Store

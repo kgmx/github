@@ -1,0 +1,222 @@
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../../src/sass/main.scss */
+.cf:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 9, ../../src/sass/main.scss */
+.photo-wrapper {
+  height: 100px;
+  width: 600px;
+  margin: 100px auto 40px;
+  display: none;
+}
+/* line 14, ../../src/sass/main.scss */
+.photo-wrapper.show {
+  display: block;
+}
+/* line 17, ../../src/sass/main.scss */
+.photo-wrapper.s1 .photo {
+  background: #2C3E50;
+}
+/* line 20, ../../src/sass/main.scss */
+.photo-wrapper.s2 .photo {
+  background: #8E44AD;
+}
+/* line 23, ../../src/sass/main.scss */
+.photo-wrapper.s3 .photo {
+  background: #2980B9;
+}
+/* line 26, ../../src/sass/main.scss */
+.photo-wrapper.s4 .photo {
+  background: #27AE60;
+}
+/* line 29, ../../src/sass/main.scss */
+.photo-wrapper.s5 .photo {
+  background: #16A085;
+}
+/* line 32, ../../src/sass/main.scss */
+.photo-wrapper.s6 .photo {
+  background: #2C3E50;
+}
+/* line 35, ../../src/sass/main.scss */
+.photo-wrapper.s7 .photo {
+  background: #8E44AD;
+}
+/* line 38, ../../src/sass/main.scss */
+.photo-wrapper.s8 .photo {
+  background: #2980B9;
+}
+/* line 41, ../../src/sass/main.scss */
+.photo-wrapper.s9 .photo {
+  background: #27AE60;
+}
+/* line 44, ../../src/sass/main.scss */
+.photo-wrapper.s10 .photo {
+  background: #16A085;
+}
+/* line 47, ../../src/sass/main.scss */
+.photo-wrapper .photo {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+  background: #F1233B;
+  margin-right: 20px;
+  color: #fff;
+}
+
+/* line 59, ../../src/sass/main.scss */
+.pagination-wrapper {
+  clear: both;
+  max-width: 330px;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+/* line 64, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span {
+  height: 29px;
+  line-height: 29px;
+  display: block;
+  float: left;
+}
+/* line 69, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span a {
+  border-left: 0;
+  display: block;
+  font-size: 13px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  display: block;
+  color: #6a6e71;
+  font-weight: bold;
+}
+/* line 81, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.pagination-block {
+  margin-right: 5px;
+}
+/* line 84, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span a:hover {
+  color: #3498DB;
+}
+/* line 87, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.page {
+  display: none;
+}
+/* line 89, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.page a {
+  width: 30px;
+}
+/* line 92, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.page.on {
+  display: block;
+}
+/* line 96, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.show {
+  display: block;
+}
+/* line 99, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.current a {
+  color: #3498DB;
+}
+/* line 102, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.first, .pagination-wrapper nav.pagination span.prev, .pagination-wrapper nav.pagination span.next, .pagination-wrapper nav.pagination span.last {
+  margin-right: 5px;
+}
+/* line 104, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.first a, .pagination-wrapper nav.pagination span.prev a, .pagination-wrapper nav.pagination span.next a, .pagination-wrapper nav.pagination span.last a {
+  padding: 0 10px;
+}
+/* line 108, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.first {
+  display: none;
+}
+/* line 110, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.first.on {
+  display: block;
+}
+/* line 114, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.last {
+  display: none;
+}
+/* line 116, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.last.on {
+  display: block;
+}
+/* line 120, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.continue {
+  display: none;
+}
+/* line 122, ../../src/sass/main.scss */
+.pagination-wrapper nav.pagination span.continue.on {
+  display: block;
+}
